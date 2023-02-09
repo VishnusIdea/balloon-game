@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#game{
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#character{
+    width: 100px;
+    height: 154px;
+    
+    position: relative;
+    top: 253px; 
+    left: 100px;
+    background-image:  url(help.webp);
+    background-repeat: no-repeat ;
+    background-size:cover;
+     min-width: 156px; 
+    
+    
+}
+#block{
+    width: 100px;
+    height: 100px;
+    
+    animation: slide 1s linear infinite;
+    position: relative;
+
+    background-image:  url(giphy.gif);
+    background-repeat: no-repeat ;
+    background-size:cover;
+     min-width: 89px; 
+}
+@keyframes slide{
+    0%{
+        top:-100px;
+    }
+    100%{
+        top:500px;
+    }
+}

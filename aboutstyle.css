@@ -1,0 +1,24 @@
+
+.dog{
+    width: 75px;
+    height: 235px;
+    left: 480px;
+    position: relative;
+    top: 290px;
+    background-image:  url(giphy.gif);
+    background-repeat: no-repeat ;
+    background-size:cover;
+     min-width: 155px;
+    
+}
+.boy{
+    width: 87px;
+    height: 490px;
+    
+    position: relative;
+    top: -189px;
+    background-image:  url(2about.webp);
+    background-repeat: no-repeat ;
+    
+     min-width: 470px;
+}
