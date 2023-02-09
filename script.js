@@ -6,7 +6,7 @@ function validate()
   if(Enterusername.length<20 && Enterusername!="" && Enterpassword.length<8 && Enterpassword!="")
   {
     alert("login succesfully");
-    window.location.assign("file:///C:/WorkArea/v25game/25gameindex.html");
+    window.location.assign("25gameindex.html");
 
   }
   else{
