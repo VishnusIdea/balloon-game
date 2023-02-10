@@ -1,5 +1,6 @@
 var character = document.getElementById('character');
 var counter = 0;
+
 function moveLeft(){
     let left = parseInt (window.getComputedStyle(character).getPropertyValue("left"));
     left -= 100;
@@ -41,3 +42,6 @@ setInterval(function(){
     }
 }, 1)
 
+
+document.getElementById("left").addEventListener("touchstart", moveLeft);
+document.getElementById("left").addEventListener("touchstart", moveLeft);
