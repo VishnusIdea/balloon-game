@@ -44,4 +44,4 @@ setInterval(function(){
 
 
 document.getElementById("left").addEventListener("touchstart", moveLeft);
-document.getElementById("left").addEventListener("touchstart", moveLeft);
+document.getElementById("right").addEventListener("touchstart", moveRight);
