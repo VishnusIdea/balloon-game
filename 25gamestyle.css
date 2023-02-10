@@ -9,6 +9,9 @@
     margin: auto;
     box-sizing: border-box;
     overflow: hidden;
+    background-image:  url(images.jfif);
+    background-repeat: no-repeat ;
+    background-size:cover;
 }
 #character{
     width: 100px;
