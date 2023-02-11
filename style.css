@@ -117,11 +117,11 @@ main{
  
 main{
     background-image:  url(25.png);
-    background-color: #B7A2FA;
+    background-color: #D4B8FF;
    background-repeat: no-repeat ;
    background-size:contain;
-   padding: 21px;
-    height:179px;
+   padding: 69px;
+    height:722px;
     width: 249px;
 } 
 
@@ -129,9 +129,9 @@ main{
 
     background: none;
     display: block;
-    margin: -84px auto;
-    border: 7px solid #A276E7;
-    padding: 4px 3px;
+    margin: -127px auto;
+    border: 15px solid #A276E7;
+    padding: 4px 12px;
     width: 64px;
     outline: none;
     color: #A276E7;
@@ -139,10 +139,10 @@ main{
 
     height: 37px;
     float: right;
-    width: 76px;
-    height: 25px;
-    margin-top: 100px;
-    margin-right: 146px;
+    width: 92px;
+    height: 18px;
+    margin-top: 145px;
+    margin-right: 92px;
     
 }
 
@@ -156,11 +156,11 @@ main{
 
 
 .box{
-    width: 242px;
+    width: 232px;
     padding: 23px;
     position: absolute;
-    top: 310px;
-    left: 147px;
+    top: 396px;
+    left: 207px;
     transform: translate(-50%,-50%);
     background: #763EA4;
     text-align: center; 
