@@ -80,12 +80,16 @@
     }
 
     
-#left, #right{
+#left{
     width: 126px;
     position: absolute;
     height: 850px;
 }
 #right{
+    width: 126px;
+    position: absolute;
+    height: 850px;
+
     left:127%;
 }
 }
