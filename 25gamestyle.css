@@ -40,7 +40,7 @@
         top:-100px;
     }
     100%{
-        top:800px;
+        top:1000px;
     }
 }
 
@@ -58,8 +58,8 @@
 @media screen and (max-width: 600px)
 {
     #game{
-        width: 343px;
-        height: 800px;
+        width: 384px;
+        height: 856px;
         border: 9px solid black;
         margin: auto;
         box-sizing: border-box;
@@ -68,8 +68,8 @@
     }
 
     #character{
-        width: 126px;
-        height: 135px;
+        width: 187px;
+        height: 193px;
         
         position: relative;
         top: 551px; 
@@ -79,17 +79,37 @@
         background-size:cover;
     }
 
-    
-#left{
-    width: 126px;
-    position: absolute;
-    height: 850px;
-}
-#right{
-    width: 126px;
-    position: absolute;
-    height: 850px;
 
-    left:127%;
-}
+    #block{
+        width: 100px;
+        height: 100px;
+        left: 130px;
+        animation: slide 1s linear infinite;
+        position: relative;
+        background-image:  url(giphy.gif);
+        background-repeat: no-repeat ;
+        background-size:cover;
+         min-width: 89px; 
+    }
+    
+    @keyframes slide{
+        0%{
+            top:-100px;
+        }
+        100%{
+            top:1000px;
+        }
+    }    
+    
+
+    #left, #right{
+        width: 137px;
+        position: absolute;
+        height: 5000px;
+    }
+    #right{
+        left:57%;
+
+    }
+    
 }

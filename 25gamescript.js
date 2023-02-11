@@ -35,7 +35,7 @@ setInterval(function(){
     var blockLeft =  parseInt (window.getComputedStyle(block).getPropertyValue("left"));
     var blockTop =  parseInt (window.getComputedStyle(block).getPropertyValue("top"));
 
-    if (characterLeft == blockLeft && blockTop < 800 && blockTop > 730) {
+    if (characterLeft == blockLeft && blockTop < 1000 && blockTop > 551) {
         alert("Game over! Score: "+ counter);
         block.style.animation = "none";
         counter=0;
