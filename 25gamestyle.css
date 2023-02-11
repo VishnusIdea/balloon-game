@@ -59,7 +59,7 @@
 {
     #game{
         width: 384px;
-        height: 856px;
+        height: 1301px;
         border: 9px solid black;
         margin: auto;
         box-sizing: border-box;
@@ -68,11 +68,11 @@
     }
 
     #character{
-        width: 187px;
-        height: 193px;
+        width: 172px;
+        height: 179px;
         
         position: relative;
-        top: 551px; 
+        top: 515px; 
         left: 100px;
         background-image:  url(help.webp);
         background-repeat: no-repeat ;
@@ -83,7 +83,7 @@
     #block{
         width: 100px;
         height: 100px;
-        left: 130px;
+        padding: 31px;
         animation: slide 1s linear infinite;
         position: relative;
         background-image:  url(giphy.gif);
@@ -97,19 +97,21 @@
             top:-100px;
         }
         100%{
-            top:1000px;
+            top:1020px;
         }
     }    
     
 
-    #left, #right{
+    #left{
         width: 137px;
         position: absolute;
         height: 5000px;
     }
     #right{
-        left:57%;
-
+        left:68%;
+        width: 172px;
+        position: absolute;
+        height: 5000px;
     }
     
 }
