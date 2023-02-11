@@ -21,10 +21,9 @@
     background-image:  url(help.webp);
     background-repeat: no-repeat ;
     background-size:cover;
-      
-    
-    
 }
+
+
 #block{
     width: 100px;
     height: 100px;
@@ -52,4 +51,41 @@
 }
 #right{
     left:100%;
+}
+
+
+
+@media screen and (max-width: 600px)
+{
+    #game{
+        width: 343px;
+        height: 800px;
+        border: 9px solid black;
+        margin: auto;
+        box-sizing: border-box;
+        overflow: hidden;
+      
+    }
+
+    #character{
+        width: 126px;
+        height: 135px;
+        
+        position: relative;
+        top: 551px; 
+        left: 100px;
+        background-image:  url(help.webp);
+        background-repeat: no-repeat ;
+        background-size:cover;
+    }
+
+    
+#left, #right{
+    width: 126px;
+    position: absolute;
+    height: 850px;
+}
+#right{
+    left:126%;
+}
 }
