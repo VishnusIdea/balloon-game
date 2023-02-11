@@ -112,6 +112,64 @@ main{
     margin-left: 0px;
 }
 
+@media screen and (max-width: 600px)
+{
+ 
+main{
+    background-image:  url(25.png);
+    background-color: skyblue;
+   background-repeat: no-repeat ;
+   background-size:contain;
+   top: auto;
+    height:179px;
+    width: 249px;
+} 
 
+.button{
+
+    background: none;
+    display: block;
+    margin: 2px auto;
+    border: 13px solid #A276E7;
+    padding: 4px 3px;
+    width: 64px;
+    outline: none;
+    color: #A276E7;
+    border-radius: 69px;
+
+    height: 20px;
+    float: right;
+    width: 115px;
+    height: 25px;
+    margin-top: 174px;
+    margin-right: 116px;
+    
+}
+
+.logo img{
+    float: left;
+    width: 46px;
+    height: 25px;
+    margin-top: -1px;
+    margin-left: 0px;
+}
+
+
+.box{
+    width: 385px;
+    padding: 23px;
+    position: absolute;
+    top: 310px;
+    left: 147px;
+    transform: translate(-50%,-50%);
+    background: lawngreen;
+    text-align: center;
+
+    
+}
+
+
+
+}
 
 
